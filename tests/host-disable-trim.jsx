@@ -1,0 +1,1 @@
+(function(){var c=null;for(var i=1;i<=app.project.numItems;i++)if(app.project.item(i).name==='Native Test')c=app.project.item(i);var l=c.layer(1);l.property('ADBE Effect Parade').property(1).enabled=false;l.outPoint=1;})();

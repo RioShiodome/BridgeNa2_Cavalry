@@ -1,0 +1,1 @@
+(function(){var c=null;for(var i=1;i<=app.project.numItems;i++)if(app.project.item(i).name==='Native Test')c=app.project.item(i);var l=c.layer(1);var f=File('/Users/moonshot/cavalry-ae-native/build/disabled-trim.json');f.open('w');f.write(JSON.stringify({outPoint:l.outPoint,duration:l.outPoint-l.inPoint,expected:1,passed:Math.abs(l.outPoint-1)<.00001}));f.close();})();

@@ -1,0 +1,1 @@
+(function(){var safe=true;for(var i=1;i<=app.project.numItems;i++){var n=app.project.item(i).name;if(n!=='Native Test'&&n!=='PNG reference'&&n!=='Cavalry'&&n!=='Solids'&&n!=='frame_000001.png')safe=false;}if(safe)app.project.close(CloseOptions.DO_NOT_SAVE_CHANGES);else throw Error('Unrecognized test items; refusing to close project');app.quit();})();

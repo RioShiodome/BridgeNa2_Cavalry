@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-18",
+  "version": "4.6.4",
+  "windows_runtime_tested": false,
+  "ae_script_engine": {
+    "ae": "26.2.1x2",
+    "engine": "4.5.6",
+    "os": "Macintosh OS 15.6.1/64",
+    "windowsHost": false,
+    "usesPathMocks": true,
+    "checks": [
+      "picker parses/loads: empty",
+      "picker native Unicode path: empty",
+      "picker does not call getenv: empty",
+      "bake parses/loads: empty",
+      "bake does not call getenv: empty",
+      "standalone AppData fallback: empty",
+      "picker parses/loads: throws",
+      "picker native Unicode path: throws",
+      "picker does not call getenv: throws",
+      "bake parses/loads: throws",
+      "bake does not call getenv: throws",
+      "standalone AppData fallback: throws",
+      "picker parses/loads: missing",
+      "picker native Unicode path: missing",
+      "picker does not call getenv: missing",
+      "bake parses/loads: missing",
+      "bake does not call getenv: missing",
+      "standalone AppData fallback: missing",
+      "complete create-layer script compiles (not executed)"
+    ],
+    "legacyRegexAccepted": false,
+    "legacyError": "SyntaxError: 应为: ;",
+    "passed": true
+  },
+  "packages": {
+    "Mac": {
+      "path": "/Users/moonshot/Desktop/BridgeNa2_Cavalry-Mac-v4.6.4.zip",
+      "files": 20,
+      "sha256": "1dd962212255a80c8ac0214f41b4c16d12471154fda1fc81ef6ae96056d1d948"
+    },
+    "Windows": {
+      "path": "/Users/moonshot/Desktop/BridgeNa2_Cavalry-Windows-v4.6.4.zip",
+      "files": 19,
+      "sha256": "d48800369716f217c18c4cc8d6b502cac9513fa0314f5ae3b08fb1722902fff1"
+    },
+    "Source": {
+      "path": "/Users/moonshot/Desktop/BridgeNa2_Cavalry-Source-v4.6.4.zip",
+      "files": 73,
+      "sha256": "a1395c6897c4d3ecd6303f5d95260787742448464f28e404bda8520c49c2d08c"
+    }
+  },
+  "binaries": {
+    "BridgeNa2_Cavalry.aex": {
+      "sha256": "af1bfb14fe431994dfc93559a97126389b025f51b2b257fc7d85d1d148c4a819",
+      "exports": [
+        "EffectMain",
+        "PluginDataEntryFunction"
+      ],
+      "imports": [
+        "SHELL32.dll",
+        "ole32.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "KERNEL32.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll"
+      ]
+    },
+    "qttestability.dll": {
+      "sha256": "a7d5eb0b663feeb147e29ee9c8e79d4b0efbe00694516a671119bd46be3e9ea7",
+      "exports": [
+        "qt_testability_init"
+      ],
+      "imports": [
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "KERNEL32.dll",
+        "api-ms-win-crt-private-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll"
+      ]
+    }
+  },
+  "regression_log": "build/test464.log",
+  "limits": "AE script tests ran in Mac ExtendScript with Windows-path mocks; Windows plugin loading, GPU, Cavalry rendering and playback not tested."
+}

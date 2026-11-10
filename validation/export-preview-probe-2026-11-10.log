@@ -1,0 +1,2 @@
+PASS read-only probe: production snapshot/PNG paths, negative frames, opaque black, transparent, colored, corrupt PNG, 8/16/32-bit conversion, BMP output and unchanged cache hashes
+PASS AE report reads selected channel/revision/timing, records path errors, respects Save cancellation, and leaves project/parameters unchanged

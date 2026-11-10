@@ -1,0 +1,768 @@
+{
+  "date": "2026-11-10",
+  "sourceVersion": "4.6.4 plus PreviewCheck v1",
+  "files": [
+    {
+      "path": "src/cache.cpp",
+      "sha256": "1d57fe0e2cff91d0fdc041c01fc0058893ea61b60ad9f0772475ad81a7c1e077",
+      "kind": "source",
+      "sourcePath": "src/cache.cpp"
+    },
+    {
+      "path": "src/plugin.cpp",
+      "sha256": "37f716ea3f773b56d3a66f74dbbd7ad6f2ffda636b91b4cf303334a37e961123",
+      "kind": "source",
+      "sourcePath": "src/plugin.cpp"
+    },
+    {
+      "path": "include/bake_ui.hpp",
+      "sha256": "c4f63af2378ec142dd7711a3de68f89517cf5f75f444da4eda08866629e6930d",
+      "kind": "source",
+      "sourcePath": "include/bake_ui.hpp"
+    },
+    {
+      "path": "include/cache.hpp",
+      "sha256": "cf48666534e725e0537a5977c5d02257347d417a83e8da2bd5bb6d04e4979d5f",
+      "kind": "source",
+      "sourcePath": "include/cache.hpp"
+    },
+    {
+      "path": "include/composition_ui.hpp",
+      "sha256": "9f07d6e70f12798432ecd894efa47d433a26f732bb50f153d07131ae26c99b4e",
+      "kind": "source",
+      "sourcePath": "include/composition_ui.hpp"
+    },
+    {
+      "path": "include/identity.hpp",
+      "sha256": "35c8cc3a9f1c61596478957086558a1abac5f8542793f1cdc1f1f742f62c7386",
+      "kind": "source",
+      "sourcePath": "include/identity.hpp"
+    },
+    {
+      "path": "include/renderer_launch.hpp",
+      "sha256": "50af7089907c9778d7b5161091a25d501286c5f3185c0643a8597b017e46a3db",
+      "kind": "source",
+      "sourcePath": "include/renderer_launch.hpp"
+    },
+    {
+      "path": "include/resample.hpp",
+      "sha256": "3c01033b2a74ac31394b35946690ff8cd93b5200de1fe3192542153d11879964",
+      "kind": "source",
+      "sourcePath": "include/resample.hpp"
+    },
+    {
+      "path": "include/script_path.hpp",
+      "sha256": "d76d1314f0397adc3a78efe004f57394f154d743e9cdc2f2d4c59fdd7d9bfdfb",
+      "kind": "source",
+      "sourcePath": "include/script_path.hpp"
+    },
+    {
+      "path": "ae/bake-panel.jsx",
+      "sha256": "a542d2dc30f0466438d14e32fdffdbbd06854fa2c937a9b45e798e741fa7021e",
+      "kind": "source",
+      "sourcePath": "ae/bake-panel.jsx"
+    },
+    {
+      "path": "ae/cache-root.js",
+      "sha256": "5305f566056610d8c4090d77bb55c398f7313f0582a66da31ef5f47afb56955f",
+      "kind": "source",
+      "sourcePath": "ae/cache-root.js"
+    },
+    {
+      "path": "ae/composition-panel.jsx",
+      "sha256": "dffe2a6f1f24486454ffbb0390a29467044281b5daa6b798da43dfbf3b0992eb",
+      "kind": "source",
+      "sourcePath": "ae/composition-panel.jsx"
+    },
+    {
+      "path": "ae/create-layer.jsx",
+      "sha256": "f969f6c7aabdee78cbce9fe3537a563cad1e22432b6d17df1f916c919603a636",
+      "kind": "source",
+      "sourcePath": "ae/create-layer.jsx"
+    },
+    {
+      "path": "ae/json-safe.js",
+      "sha256": "36b72e3ca8dbdfc3146ac43794a6bebd3ed8b78512ebe6d2c06ffe3acb387148",
+      "kind": "source",
+      "sourcePath": "ae/json-safe.js"
+    },
+    {
+      "path": "ae/preview-diagnostic.jsx",
+      "sha256": "02a3088e2b5322fd7b4fdae52a397526ee3db4b91a8450d615e521b9d8d3edf4",
+      "kind": "source",
+      "sourcePath": "ae/preview-diagnostic.jsx"
+    },
+    {
+      "path": "ae/创建动画图层.jsx",
+      "sha256": "736a8007ff424b76eab5c2da28ff864581ead0b3a65c01ed9f170d199ffc4c47",
+      "kind": "source",
+      "sourcePath": "ae/创建动画图层.jsx"
+    },
+    {
+      "path": "cavalry/Cavalry AE Native.js",
+      "sha256": "b004f3df70d49e5fb32b29e9630750ff98e4b70b2ae1f53ad98eac477ca09196",
+      "kind": "source",
+      "sourcePath": "cavalry/Cavalry AE Native.js"
+    },
+    {
+      "path": "cavalry/background.js",
+      "sha256": "68500e5212d846991aad77838c9ef21eaabc18ee4f1185421bc3d87772ad4476",
+      "kind": "source",
+      "sourcePath": "cavalry/background.js"
+    },
+    {
+      "path": "cavalry/bake-proxy.js",
+      "sha256": "095200ab7f6f5dccccf1f22903f27705b98e782d6a4c493f980f2336eb6a4523",
+      "kind": "source",
+      "sourcePath": "cavalry/bake-proxy.js"
+    },
+    {
+      "path": "cavalry/bake.js",
+      "sha256": "761b1c641748aba498e2b26586412873f496daa4de3707a6cb9c53d706df3a21",
+      "kind": "source",
+      "sourcePath": "cavalry/bake.js"
+    },
+    {
+      "path": "cavalry/channel.js",
+      "sha256": "4bd036fe902b348c6ff7f96a68ca978783190f97bfef676e9c63aef3bef944a3",
+      "kind": "source",
+      "sourcePath": "cavalry/channel.js"
+    },
+    {
+      "path": "cavalry/fingerprint.js",
+      "sha256": "74961bd4c7c3fcdf6f15072c4f1b2e79e01ff047f4b9924623eaaec7fe638f18",
+      "kind": "source",
+      "sourcePath": "cavalry/fingerprint.js"
+    },
+    {
+      "path": "cavalry/scheduler.js",
+      "sha256": "4998244cc492a5636216f106976fb3fef10bb19bdd0d943565f39f50352412cc",
+      "kind": "source",
+      "sourcePath": "cavalry/scheduler.js"
+    },
+    {
+      "path": "cavalry/source.js",
+      "sha256": "e9b760e28ee42bb766acb568b58c4ef14a373b547d78f58adaefb83bc9f7a6d8",
+      "kind": "source",
+      "sourcePath": "cavalry/source.js"
+    },
+    {
+      "path": "cavalry/worker.js",
+      "sha256": "f75169d91816847fae77d65610b43331612f8f48eb60254ee13b5d994e327880",
+      "kind": "source",
+      "sourcePath": "cavalry/worker.js"
+    },
+    {
+      "path": "renderer/host.js",
+      "sha256": "e7926fecb3e829fdc00508cca3ac05930fb95fc08ec6dd99add6b64eb9751fd9",
+      "kind": "source",
+      "sourcePath": "renderer/host.js"
+    },
+    {
+      "path": "renderer/launch-mac.js",
+      "sha256": "262cfdb25471aa36669d671750ccf962fef64f15e6e8186a3a746c4a408274aa",
+      "kind": "source",
+      "sourcePath": "renderer/launch-mac.js"
+    },
+    {
+      "path": "renderer/launch-windows.ps1",
+      "sha256": "d6e7f7765005cf64cf1dc8480584c269bdaa3c3286c7242413fcfdf06e93184d",
+      "kind": "source",
+      "sourcePath": "renderer/launch-windows.ps1"
+    },
+    {
+      "path": "renderer/qt-bootstrap-windows.cpp",
+      "sha256": "a75c06c3f7650a08d4045a71939be411674023023378f1b3a9d8c55d5ceb9bc9",
+      "kind": "source",
+      "sourcePath": "renderer/qt-bootstrap-windows.cpp"
+    },
+    {
+      "path": "install/Check-Compatibility-Windows.cmd",
+      "sha256": "ea7aa6273b89038c121cb3830db204385b35d6ca3b88c782a357a8d4c0999c1a",
+      "kind": "source",
+      "sourcePath": "install/Check-Compatibility-Windows.cmd"
+    },
+    {
+      "path": "install/Check-Compatibility-Windows.ps1",
+      "sha256": "b17c8857bb185f94ac048da3456caaf4aabfa8979dd3f58221d84a886edda2d9",
+      "kind": "source",
+      "sourcePath": "install/Check-Compatibility-Windows.ps1"
+    },
+    {
+      "path": "install/Check-Preview-Windows.cmd",
+      "sha256": "c5c093ef9535010338cd916750b292af9c00d2e70322d5a5870ea994433842f8",
+      "kind": "source",
+      "sourcePath": "install/Check-Preview-Windows.cmd"
+    },
+    {
+      "path": "install/Check-Renderer-Mac.command",
+      "sha256": "1e06baf287f4d41d07e581ebd2602f70935fae6e6c9e8c80bbef9b92f398b2ec",
+      "kind": "source",
+      "sourcePath": "install/Check-Renderer-Mac.command"
+    },
+    {
+      "path": "install/Check-Renderer-Windows.cmd",
+      "sha256": "152b6695f02cce862202354a1d83b640b7b802c920e8c67db1ef556d0211aef3",
+      "kind": "source",
+      "sourcePath": "install/Check-Renderer-Windows.cmd"
+    },
+    {
+      "path": "install/Install-Mac.command",
+      "sha256": "5788523ce32394d4ee17237c08221236e5a3a429e89481bad1d4083d2b6e2a03",
+      "kind": "source",
+      "sourcePath": "install/Install-Mac.command"
+    },
+    {
+      "path": "install/Install-Windows.cmd",
+      "sha256": "28c6817954fa2738345c871223a33511586e692822abd73aeec970fc87f121a7",
+      "kind": "source",
+      "sourcePath": "install/Install-Windows.cmd"
+    },
+    {
+      "path": "install/Install-Windows.ps1",
+      "sha256": "aa49396f0337f8c29ac007cc39c2b98587832c292bc95c05cd1ffb0b332794a7",
+      "kind": "source",
+      "sourcePath": "install/Install-Windows.ps1"
+    },
+    {
+      "path": "install/Open-Cavalry-Mac.command",
+      "sha256": "3c4598d0964a4429d1f53964d2333d13938c388fa786f60a80e7beb5f70fd947",
+      "kind": "source",
+      "sourcePath": "install/Open-Cavalry-Mac.command"
+    },
+    {
+      "path": "install/configure-cavalry.js",
+      "sha256": "7285d66915529351705c586cb631626506aa9d4a16e94e5bb53966cbe7f39408",
+      "kind": "source",
+      "sourcePath": "install/configure-cavalry.js"
+    },
+    {
+      "path": "tools/ae-pid.swift",
+      "sha256": "c55767b6ec258dfc5305b8db353f78131fbe610d497d7085b242b91c104b08e2",
+      "kind": "source",
+      "sourcePath": "tools/ae-pid.swift"
+    },
+    {
+      "path": "tools/build.py",
+      "sha256": "b3ca55f74224255eb9295c796ecb88d28cdecebe2edfc234e307bf6ad9d46a9b",
+      "kind": "source",
+      "sourcePath": "tools/build.py"
+    },
+    {
+      "path": "tools/bundle.py",
+      "sha256": "e4cfb3a7b6f238000f158bec2fc311551e3208ed9d1aa1e6d3402dba3929250d",
+      "kind": "source",
+      "sourcePath": "tools/bundle.py"
+    },
+    {
+      "path": "tools/package.py",
+      "sha256": "f79de32644efd66937615847dc686e90e5818e8de2da4d10889eb5e8980a6fcc",
+      "kind": "source",
+      "sourcePath": "tools/package.py"
+    },
+    {
+      "path": "tools/package_preview_probe.py",
+      "sha256": "2d82f8cccb7be00ca404b287ae24caf1a0c38198e90c6f4f9be9641d9e30be90",
+      "kind": "source",
+      "sourcePath": "tools/package_preview_probe.py"
+    },
+    {
+      "path": "tools/preview_probe.cpp",
+      "sha256": "fc7a855b9cb86b47e14b3e48ed71b45e883b14fe10ae1f5f5d8571842b63ab4e",
+      "kind": "source",
+      "sourcePath": "tools/preview_probe.cpp"
+    },
+    {
+      "path": "tools/resources.py",
+      "sha256": "0dcac30df4bf6b45fb05591b12b899647b1f44d5645ba015b1753e225fad80a3",
+      "kind": "source",
+      "sourcePath": "tools/resources.py"
+    },
+    {
+      "path": "vendor/STB-LICENSE.txt",
+      "sha256": "bebfe904b14301657e4e5d655c811d51fd31b97c455b9cc2d8600d6bac6cff63",
+      "kind": "source",
+      "sourcePath": "vendor/STB-LICENSE.txt"
+    },
+    {
+      "path": "vendor/stb_image.h",
+      "sha256": "594c2fe35d49488b4382dbfaec8f98366defca819d916ac95becf3e75f4200b3",
+      "kind": "source",
+      "sourcePath": "vendor/stb_image.h"
+    },
+    {
+      "path": "licenses/LLVM-MINGW-LICENSE.txt",
+      "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+      "kind": "source",
+      "sourcePath": "licenses/LLVM-MINGW-LICENSE.txt"
+    },
+    {
+      "path": "licenses/MinGW-runtime.txt",
+      "sha256": "1db8da07b436c68833c0673ffee3d9fcb2526047f3820b81661865dfedc79a1f",
+      "kind": "source",
+      "sourcePath": "licenses/MinGW-runtime.txt"
+    },
+    {
+      "path": "licenses/STB-LICENSE.txt",
+      "sha256": "bebfe904b14301657e4e5d655c811d51fd31b97c455b9cc2d8600d6bac6cff63",
+      "kind": "source",
+      "sourcePath": "licenses/STB-LICENSE.txt"
+    },
+    {
+      "path": "licenses/Winpthreads.txt",
+      "sha256": "63263614cdd29f2f93cba85e992f041b31f9fc7b4033692f31269489a8a1b177",
+      "kind": "source",
+      "sourcePath": "licenses/Winpthreads.txt"
+    },
+    {
+      "path": "docs/BUILD.md",
+      "sha256": "ce86eb8644cf95b39b7f85474d74c0b7fbb33b0d10b3e8ef29fdc8acc0921ecb",
+      "kind": "source",
+      "sourcePath": "docs/BUILD.md"
+    },
+    {
+      "path": "docs/验证记录.md",
+      "sha256": "5abbe5a1b0a911fc93110d7370301d2a88ddbc48defbe980c833f73672376d12",
+      "kind": "source",
+      "sourcePath": "docs/验证记录.md"
+    },
+    {
+      "path": "tests/ae-script-parse.jsx",
+      "sha256": "6ccd03a1fdb0c9c0ecf5b3340fca262f935866b57d5cb1f461d7c0268be7da9e",
+      "kind": "source",
+      "sourcePath": "tests/ae-script-parse.jsx"
+    },
+    {
+      "path": "tests/background.test.cjs",
+      "sha256": "7720a42a98dfda05f62597fa9e73ad731d1f35620ef2204ac6bf3a233a0d4dec",
+      "kind": "source",
+      "sourcePath": "tests/background.test.cjs"
+    },
+    {
+      "path": "tests/bake-panel.test.cjs",
+      "sha256": "f572f0ab409836d9bab89e414a408bf07df4b517bc16a6a29bbcf3d354cbcb8f",
+      "kind": "source",
+      "sourcePath": "tests/bake-panel.test.cjs"
+    },
+    {
+      "path": "tests/bake-proxy.test.cjs",
+      "sha256": "dd42ee8ad6142aec9911d7194eb58a6a75d7f2c6df0d4a3d7027410e020b496c",
+      "kind": "source",
+      "sourcePath": "tests/bake-proxy.test.cjs"
+    },
+    {
+      "path": "tests/bake.test.cjs",
+      "sha256": "3610676f6d335d9fe3cd8664709a4a5130c876ae341fd58f178c3c8dd98a7819",
+      "kind": "source",
+      "sourcePath": "tests/bake.test.cjs"
+    },
+    {
+      "path": "tests/cache-root.test.cjs",
+      "sha256": "6358336c434d0d78f9010a33094a8c230220102c25cf762ac8826feac45d8674",
+      "kind": "source",
+      "sourcePath": "tests/cache-root.test.cjs"
+    },
+    {
+      "path": "tests/cache_test.cpp",
+      "sha256": "8263f75da7c66fe06ef0ed5fe63bde1f8690fd9d6b9f9325a8de106e1b7d6209",
+      "kind": "source",
+      "sourcePath": "tests/cache_test.cpp"
+    },
+    {
+      "path": "tests/composition-panel.test.cjs",
+      "sha256": "c27c3e79d7bf4f09b3905f73b6e6fcd74f913f81aebe46a489e6d0a543b52e9c",
+      "kind": "source",
+      "sourcePath": "tests/composition-panel.test.cjs"
+    },
+    {
+      "path": "tests/fingerprint.test.cjs",
+      "sha256": "e0d5ebb624eb15d103d5d33a4c17222f51a575ef8a872005c392dcb6a8b9593f",
+      "kind": "source",
+      "sourcePath": "tests/fingerprint.test.cjs"
+    },
+    {
+      "path": "tests/host-bake-fill.jsx",
+      "sha256": "13188142cc8cf5ecbfc639c88bc9459e4f22f06aecc66b3c9a2e156e270a078d",
+      "kind": "source",
+      "sourcePath": "tests/host-bake-fill.jsx"
+    },
+    {
+      "path": "tests/host-bake-open.jsx",
+      "sha256": "17831d68ccab4beddc711a02fd33d8e5312a1a5bf6caa28451a2159a622ae8f4",
+      "kind": "source",
+      "sourcePath": "tests/host-bake-open.jsx"
+    },
+    {
+      "path": "tests/host-bake-ui-apply.jsx",
+      "sha256": "77aca2256a3c2c32d697dd052bca58a084f0e570251246916987c7531329330f",
+      "kind": "source",
+      "sourcePath": "tests/host-bake-ui-apply.jsx"
+    },
+    {
+      "path": "tests/host-bake-ui-inspect.jsx",
+      "sha256": "f9cfbce778109a4121e24d9f59b72dcf4a24cfd437102912a834301923b4b15c",
+      "kind": "source",
+      "sourcePath": "tests/host-bake-ui-inspect.jsx"
+    },
+    {
+      "path": "tests/host-bake-ui-render.jsx",
+      "sha256": "1314e44a1761901f71c503ae095b60effb26dacd4af9ce9e831492ab5bffbd83",
+      "kind": "source",
+      "sourcePath": "tests/host-bake-ui-render.jsx"
+    },
+    {
+      "path": "tests/host-bake-ui-result.jsx",
+      "sha256": "84d2bfa834c2a482426172f3d497d427fbb47fd093bd0a2e76cf7f734627fa98",
+      "kind": "source",
+      "sourcePath": "tests/host-bake-ui-result.jsx"
+    },
+    {
+      "path": "tests/host-bake-ui-test.jsx",
+      "sha256": "656387d2d1da1537708d72fbd0a2217b2efa5b6d052bb3972722116238b2a492",
+      "kind": "source",
+      "sourcePath": "tests/host-bake-ui-test.jsx"
+    },
+    {
+      "path": "tests/host-create.jsx",
+      "sha256": "0625b64eb331b69871db74d9e072e7ceb471e078fd2baebe0454d6cfad11fb26",
+      "kind": "source",
+      "sourcePath": "tests/host-create.jsx"
+    },
+    {
+      "path": "tests/host-disable-check.jsx",
+      "sha256": "9939cbc926eded9d398592b8dedc6211b42107143aa4d3726125e006af5b1fa5",
+      "kind": "source",
+      "sourcePath": "tests/host-disable-check.jsx"
+    },
+    {
+      "path": "tests/host-disable-trim.jsx",
+      "sha256": "7d8db4f7a6b9fa7fb191978e2c38eb18539d4a79d0388f9c4d6287ecc6f046e6",
+      "kind": "source",
+      "sourcePath": "tests/host-disable-trim.jsx"
+    },
+    {
+      "path": "tests/host-duration.jsx",
+      "sha256": "1f20063b1a6b71c04b0942d08eb48324312a33089388bc914984a111b3731071",
+      "kind": "source",
+      "sourcePath": "tests/host-duration.jsx"
+    },
+    {
+      "path": "tests/host-freeze.jsx",
+      "sha256": "c5643c3f908270dca93e88c173df6d64c63111ec379ad82c60f5f5c3b330a0da",
+      "kind": "source",
+      "sourcePath": "tests/host-freeze.jsx"
+    },
+    {
+      "path": "tests/host-live-monitor.jsx",
+      "sha256": "1cd92b8607388175a398300bfabe1ea517705335669b91eb392ab9f273b245b8",
+      "kind": "source",
+      "sourcePath": "tests/host-live-monitor.jsx"
+    },
+    {
+      "path": "tests/host-live-render.jsx",
+      "sha256": "4a0e80e5816f4be06314d58f835c23c495a3763c4ecc5c19c6125e3906c9d5a8",
+      "kind": "source",
+      "sourcePath": "tests/host-live-render.jsx"
+    },
+    {
+      "path": "tests/host-name42.jsx",
+      "sha256": "bb02da9fb0d12567f76521027f7e23205aa471a1f75f309215ff8938a5287a54",
+      "kind": "source",
+      "sourcePath": "tests/host-name42.jsx"
+    },
+    {
+      "path": "tests/host-name43.jsx",
+      "sha256": "80e61aaee54384716a01c8d1fa2ae7d9bf64d0382b32d4575a3e9eb1f6281ade",
+      "kind": "source",
+      "sourcePath": "tests/host-name43.jsx"
+    },
+    {
+      "path": "tests/host-partial.jsx",
+      "sha256": "71e041e9e0fc8e1d5a6d3d15b82f8abb899d410d9629f38e95ae4e3b41fec2b2",
+      "kind": "source",
+      "sourcePath": "tests/host-partial.jsx"
+    },
+    {
+      "path": "tests/host-quit.jsx",
+      "sha256": "cf8c5228182da4645c3c690144c85ce4d740abbfe5951584fabc25e3ef75b0a3",
+      "kind": "source",
+      "sourcePath": "tests/host-quit.jsx"
+    },
+    {
+      "path": "tests/host-quit41.jsx",
+      "sha256": "b7bb01d9c9624bce6c6e7ea267435fd3a8e3f16f6c010f0a2b71bc8d51615c5e",
+      "kind": "source",
+      "sourcePath": "tests/host-quit41.jsx"
+    },
+    {
+      "path": "tests/host-quit42.jsx",
+      "sha256": "31999ede3f26a0c173c9af1a285cfeefc5d424d24408c3063ce4735c648ef08a",
+      "kind": "source",
+      "sourcePath": "tests/host-quit42.jsx"
+    },
+    {
+      "path": "tests/host-quit43.jsx",
+      "sha256": "7df05781cefb09926c46a17945bbe4616704c3bd419458fec4ac921645429224",
+      "kind": "source",
+      "sourcePath": "tests/host-quit43.jsx"
+    },
+    {
+      "path": "tests/host-reference.jsx",
+      "sha256": "4551125f20f2048e981bc76b8077aa61a385021d7d1db80805cfed140e0d6e9f",
+      "kind": "source",
+      "sourcePath": "tests/host-reference.jsx"
+    },
+    {
+      "path": "tests/host-render.jsx",
+      "sha256": "8ac6e89f88ebadfa69fd846f2a2f71e5371911aab272d4b9fb6d13b561e33bff",
+      "kind": "source",
+      "sourcePath": "tests/host-render.jsx"
+    },
+    {
+      "path": "tests/json-safe.test.cjs",
+      "sha256": "2adcfbf24cd6797d9fa968d34f51958da66eeac222abb131b3adab44e620a522",
+      "kind": "source",
+      "sourcePath": "tests/json-safe.test.cjs"
+    },
+    {
+      "path": "tests/multicomp.test.cjs",
+      "sha256": "de0b0182dd46c30d55c539305c5d9ecaf06ef8ee5a3dff717f87305934781268",
+      "kind": "source",
+      "sourcePath": "tests/multicomp.test.cjs"
+    },
+    {
+      "path": "tests/preview-diagnostic.test.cjs",
+      "sha256": "3620f6d6ae74211f88bdf0fbdc03ef2589ce7726bea937caf8aea22e1c4a5fd0",
+      "kind": "source",
+      "sourcePath": "tests/preview-diagnostic.test.cjs"
+    },
+    {
+      "path": "tests/preview-probe.test.py",
+      "sha256": "eaf7ae2984314b5410e0b8000b21e9cccb21bae5981a959541b7ba9beb1aedf7",
+      "kind": "source",
+      "sourcePath": "tests/preview-probe.test.py"
+    },
+    {
+      "path": "tests/probe-host.jsx",
+      "sha256": "05677e1bce59cb1d2320ca9eeccaed772e6ee87cdfd3c49399fdeaa15db6044f",
+      "kind": "source",
+      "sourcePath": "tests/probe-host.jsx"
+    },
+    {
+      "path": "tests/renderer-host.test.cjs",
+      "sha256": "713259735afa8cfcf8042e9766885de85ba13e1f210ac238a8ccd6eda34cb7f4",
+      "kind": "source",
+      "sourcePath": "tests/renderer-host.test.cjs"
+    },
+    {
+      "path": "tests/resample_test.cpp",
+      "sha256": "5db5b41d2516573a289fff6aa4002c089ef9ffb48e2cf2575b442a9dece6fc0e",
+      "kind": "source",
+      "sourcePath": "tests/resample_test.cpp"
+    },
+    {
+      "path": "tests/run-tests.py",
+      "sha256": "3b78c4b3355c1cd5d5b09e63afcda3a5e31cb1c70bb81a9df7e8b480ae39929c",
+      "kind": "source",
+      "sourcePath": "tests/run-tests.py"
+    },
+    {
+      "path": "tests/scheduler.test.cjs",
+      "sha256": "54d6ab042320abb5ff93f1afa5c038660a5d44d3170ab2e3f803c4478de6aae7",
+      "kind": "source",
+      "sourcePath": "tests/scheduler.test.cjs"
+    },
+    {
+      "path": "tests/script-path.test.cjs",
+      "sha256": "b121d25dee0415e2905396129342c0d65c46d76aabf2d3783c6e6bd3d67f717b",
+      "kind": "source",
+      "sourcePath": "tests/script-path.test.cjs"
+    },
+    {
+      "path": "tests/script_path_test.cpp",
+      "sha256": "60b199896aeaad790edbb187cf6d3acd744d039466a75bf400b7f6085050a7ce",
+      "kind": "source",
+      "sourcePath": "tests/script_path_test.cpp"
+    },
+    {
+      "path": "tests/single.js",
+      "sha256": "a1e42b673d48fc6562c5dc07b4896236bbb1e9a44d83333aca5f6be260a7130b",
+      "kind": "source",
+      "sourcePath": "tests/single.js"
+    },
+    {
+      "path": "tests/source-channel.test.cjs",
+      "sha256": "61cd74089243226e0441894c2ee95aacf86f2ba4e8032f5653df0f46e961ddd4",
+      "kind": "source",
+      "sourcePath": "tests/source-channel.test.cjs"
+    },
+    {
+      "path": "tests/source.test.cjs",
+      "sha256": "8df42d1a03b938b091fcce1b37ce669fba13a0d02ff22c747c02e9da0ee98dda",
+      "kind": "source",
+      "sourcePath": "tests/source.test.cjs"
+    },
+    {
+      "path": "tests/windows-installer.test.ps1",
+      "sha256": "c4d3d5cc9f76537a47f25dbec58e8131a072e86655bba095a8062aed9c4ca90f",
+      "kind": "source",
+      "sourcePath": "tests/windows-installer.test.ps1"
+    },
+    {
+      "path": "tests/windows-scripts.test.ps1",
+      "sha256": "2a766711b8246d65a16215230d02f094babe6951ad965895884fd5bbbd756792",
+      "kind": "source",
+      "sourcePath": "tests/windows-scripts.test.ps1"
+    },
+    {
+      "path": "tests/worker.test.cjs",
+      "sha256": "90c07e096c6746172e773aa0dcc8dc76895e04a89e05d5701ba355532088f247",
+      "kind": "source",
+      "sourcePath": "tests/worker.test.cjs"
+    },
+    {
+      "path": "docs/README-4.6.4.md",
+      "sha256": "d9576e455bb9e20bbead31074998a5f53035bc6e046b5aeebcffd4ebb05f360f",
+      "kind": "source",
+      "sourcePath": "README.md"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "2ebd2b97bb373f1d6ad2f14e117f71abbda79826143889405fa8af76a79a7921",
+      "kind": "source",
+      "sourcePath": "THIRD_PARTY.md"
+    },
+    {
+      "path": "validation/test464.log",
+      "sha256": "27c2d614b89c13e61f64f7a83af38a6bab69c1f8412a5392074a18f4b0f7099a",
+      "kind": "source",
+      "sourcePath": "validation/test464.log"
+    },
+    {
+      "path": "validation/build464.log",
+      "sha256": "6ace6fc2f6ad3eebc8236a25e82fd6f6796772f08980dda9fbf047da5a281399",
+      "kind": "source",
+      "sourcePath": "validation/build464.log"
+    },
+    {
+      "path": "validation/package464.log",
+      "sha256": "ce534247aa33cda6420ad9cddfb615e8199d910774b6d6f871ef430875a4534a",
+      "kind": "source",
+      "sourcePath": "validation/package464.log"
+    },
+    {
+      "path": "validation/windows464-checks.json",
+      "sha256": "f0e7350b2c180789804800bb66037ec4f467f8312d8be23f26b11b39a0743a3e",
+      "kind": "source",
+      "sourcePath": "validation/windows464-checks.json"
+    },
+    {
+      "path": "validation/windows464-pe.txt",
+      "sha256": "84dd748ba2479f2d3ca4b64c601e49343c3d577c09e8d2b8b077322ea5a4eebc",
+      "kind": "source",
+      "sourcePath": "validation/windows464-pe.txt"
+    },
+    {
+      "path": "validation/ae-script-parse.json",
+      "sha256": "d3357f7069892af8051ecd171e05b581d724516673d632a3a3d8b07f0fc11fad",
+      "kind": "source",
+      "sourcePath": "validation/ae-script-parse.json"
+    },
+    {
+      "path": "validation/preview-check-v1.json",
+      "sha256": "cebf8a8ad7c234baba94f74d0b72f38e9ec2de2b0beec31c69ed5a78adc886d9",
+      "kind": "source",
+      "sourcePath": "validation/preview-check-v1.json"
+    },
+    {
+      "path": "validation/preview-check-v1-pe.txt",
+      "sha256": "b9e97db5bdfa72b25b877cd37cf5726f8efaa105d59dd2dc32ff1fcb27710c90",
+      "kind": "source",
+      "sourcePath": "validation/preview-check-v1-pe.txt"
+    },
+    {
+      "path": "validation/preview-probe-test.log",
+      "sha256": "f4771bb979e1fce5e7ca4164c095a460d42d876f9076b36a4e0c63145d151e53",
+      "kind": "source",
+      "sourcePath": "validation/preview-probe-test.log"
+    },
+    {
+      "path": "validation/preview-script-parse.json",
+      "sha256": "629c9a18a2c0f92fba849fc9c69b81dbd46dabed2213aa154853060ae0b2f7c4",
+      "kind": "source",
+      "sourcePath": "validation/preview-script-parse.json"
+    },
+    {
+      "path": "validation/test-windows-rerun.log",
+      "sha256": "a1c170cc0953b5b7e70e5fe9bef7a8874c1ada5bb532df2716f8d9579518ee86",
+      "kind": "source",
+      "sourcePath": "validation/test-windows-rerun.log"
+    },
+    {
+      "path": "validation/windows-scripts-rerun.log",
+      "sha256": "cb93d09f07dd9ff684fe9ce26169f078ed16899e0423b8c162a1cdb6e9d992aa",
+      "kind": "source",
+      "sourcePath": "validation/windows-scripts-rerun.log"
+    },
+    {
+      "path": "validation/windows-installer-rerun.log",
+      "sha256": "9a08acfc03b2186b4912bf30d002c54fb167a73ea642e1721b1e425a37b13cc9",
+      "kind": "source",
+      "sourcePath": "validation/windows-installer-rerun.log"
+    },
+    {
+      "path": "validation/script-root464/ae-result.json",
+      "sha256": "ff7628fff3b79734b84099e3001a1d1f2d257a83cdc6764451b014923e97e96d",
+      "kind": "source",
+      "sourcePath": "validation/script-root464/ae-result.json"
+    },
+    {
+      "path": "validation/script-root464/ae-test-direct.jsx",
+      "sha256": "652c35992e4823c8f485d595ff2fd16b7c1879df561cc92e7be8ccd11ed6dc63",
+      "kind": "source",
+      "sourcePath": "validation/script-root464/ae-test-direct.jsx"
+    },
+    {
+      "path": "validation/script-root464/old.jsx",
+      "sha256": "75a69dbbdcffc1a12c126576372f28e379daefd9e26f350b1b15ca9f4132769e",
+      "kind": "source",
+      "sourcePath": "validation/script-root464/old.jsx"
+    },
+    {
+      "path": "validation/script-root464/prefix.js",
+      "sha256": "f58f051c64c84787adf38afafbcf4fe7768c796d5c08562b8aca52d386379a9f",
+      "kind": "source",
+      "sourcePath": "validation/script-root464/prefix.js"
+    },
+    {
+      "path": "validation/script-root464/picker.jsx",
+      "sha256": "f4e0dccd5042c0458bfbadac7f5d405b1141469feaa9a9a006f1e8abbacd8d20",
+      "kind": "source",
+      "sourcePath": "validation/script-root464/picker.jsx"
+    },
+    {
+      "path": "validation/script-root464/bake.jsx",
+      "sha256": "37b078593e9b9fa9212ff0a86d1a3ad07dd825d9ac4df03ce721c5340b3d29c4",
+      "kind": "source",
+      "sourcePath": "validation/script-root464/bake.jsx"
+    },
+    {
+      "path": "distributions/BridgeNa2_Cavalry-Mac-v4.6.4.zip",
+      "sha256": "1dd962212255a80c8ac0214f41b4c16d12471154fda1fc81ef6ae96056d1d948",
+      "kind": "source",
+      "sourcePath": "distributions/BridgeNa2_Cavalry-Mac-v4.6.4.zip"
+    },
+    {
+      "path": "distributions/BridgeNa2_Cavalry-Windows-v4.6.4.zip",
+      "sha256": "d48800369716f217c18c4cc8d6b502cac9513fa0314f5ae3b08fb1722902fff1",
+      "kind": "source",
+      "sourcePath": "distributions/BridgeNa2_Cavalry-Windows-v4.6.4.zip"
+    },
+    {
+      "path": "distributions/BridgeNa2_Cavalry-Windows-PreviewCheck-v1.zip",
+      "sha256": "3c22d6557a234e99eaa8d1e7cae291aa46a3965f39d437d9a0537d36e8db8f65",
+      "kind": "source",
+      "sourcePath": "distributions/BridgeNa2_Cavalry-Windows-PreviewCheck-v1.zip"
+    }
+  ]
+}

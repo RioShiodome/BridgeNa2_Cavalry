@@ -1,0 +1,2 @@
+PASS workspace preservation, Unicode paths, case/slash idempotence and unsupported layout rejection
+PASS real-file installer transaction: every replacement failure rolls back JS/workspace/AEX/renderer, new files removed, staging failures preserve installation

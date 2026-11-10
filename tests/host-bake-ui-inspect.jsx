@@ -1,0 +1,1 @@
+(function(){var o={};try{var s=$.global.CN41.current;o.schema=!!s.schema;o.status=s.win.children[4].text;o.session=s.session;o.formats=s.schema.formats;o.fields=s.schema.fields.length;}catch(e){o.error=String(e);}var f=File('/Users/moonshot/cavalry-ae-native/build/host-bake-ui.json');f.open('w');f.write(JSON.stringify(o));f.close();})();

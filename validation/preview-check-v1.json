@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-18",
+  "status": "diagnostic ready; user black-preview root cause not yet established",
+  "windowsHostTested": false,
+  "tests": [
+    "tests/preview-probe.test.py (ASAN/UBSAN)",
+    "tests/preview-diagnostic.test.cjs",
+    "AE ExtendScript bundled diagnostic compilation"
+  ],
+  "package": "/Users/moonshot/Desktop/BridgeNa2_Cavalry-Windows-PreviewCheck-v1.zip",
+  "sha256": "3c22d6557a234e99eaa8d1e7cae291aa46a3965f39d437d9a0537d36e8db8f65",
+  "imports": [
+    "SHELL32.dll",
+    "ole32.dll",
+    "api-ms-win-crt-stdio-l1-1-0.dll",
+    "api-ms-win-crt-runtime-l1-1-0.dll",
+    "api-ms-win-crt-locale-l1-1-0.dll",
+    "api-ms-win-crt-math-l1-1-0.dll",
+    "api-ms-win-crt-heap-l1-1-0.dll",
+    "api-ms-win-crt-private-l1-1-0.dll",
+    "api-ms-win-crt-string-l1-1-0.dll",
+    "KERNEL32.dll",
+    "api-ms-win-crt-time-l1-1-0.dll",
+    "api-ms-win-crt-multibyte-l1-1-0.dll",
+    "api-ms-win-crt-convert-l1-1-0.dll",
+    "api-ms-win-crt-environment-l1-1-0.dll",
+    "api-ms-win-crt-filesystem-l1-1-0.dll"
+  ]
+}

@@ -1,0 +1,36 @@
+PASS cache root: empty/unavailable/throwing getenv, standard/UNC AppData fallback, native path priority, redirected-folder rejection, Unicode and Mac behavior
+PASS native cache-root script encoding: Unicode, UNC, surrogate pair, quotes, backslashes and line separators round-trip without executing path text
+PASS exact Cavalry composition node routing when UUIDs are duplicated
+PASS editor channel picks exact duplicate UUID node, rejects another scene, preserves cache, resumes original scene, and never guesses missing/legacy sources
+PASS editor never renders or sets frame, background publication, edit cancellation, fresh snapshot, idle and old-cache retention
+PASS large scene probe throttling and publication after deferred final chunk
+PASS inclusive custom ranges, alpha dispatch, old-cache retention and zero editing-scene mutations
+PASS shutdown signals offline first, never accesses scene/UI, and stops callbacks even when cancellation fails
+PASS two UUID-bound compositions, FIFO shared renderer, independent ranges/quality/alpha/pause/caches, rename, edits, cancellation, removal and immutable reopening
+PASS renderer FIFO, cancellation acknowledgement, skip queued cancellation, error recovery and source identity at dispatch
+PASS non-mutating fingerprint across animated defaults and static edits
+PASS immutable snapshot dispatch, scene preservation, job identity, cancellation, startup failure, no foreground fallback
+PASS no-ack timeout despite ready, stale job, loading/login timeout, long bake, inspection demand
+PASS adaptive batching, cancellation, async scene identity, immutable resume, bake idempotence and Windows isolation
+PASS pre-load acknowledgement, failure propagation and inspection skips old work but accepts reconnect
+PASS continuous batches amortize setup; complete-frame fidelity and measured progress
+PASS slow asset loading is not restarted
+PASS unmodified editor snapshot creates preview queue and transparent background only inside renderer
+PASS background bake settings survive preview loads; control response identity, restart idempotence and expired-session errors
+PASS bake sessions and responses isolated by channel; cross-channel sessions and path traversal rejected
+PASS actual requested node reaches preview queue and diagnostic reply; ambiguous legacy and missing-node requests never render another comp
+PASS Windows drive-case/backslash/Unicode snapshot and bake response routing; traversal and sibling-root requests rejected
+PASS interrupted bake, bake schema, value validation, stale requests, fresh snapshot, forced retarget, source identity, cleanup and original preservation
+PASS baking defaults to AE range, inclusive count, transparent/scene background and invalid-range rejection
+PASS staged Render Manager settings survive scene reload, use fresh animation and preserve source identity
+PASS application shutdown abandons private editor nodes without touching a destroying scene
+PASS bake proxy settings, session keep-alive, render, errors, source identity, cancellation and shutdown without editor mutations
+PASS per-channel bake panel inherits AE range/alpha and sends them on Bake, then freezes live preview
+PASS picker float32 round-trip at observed failure timestamp, collision/wrap boundaries, IO failure rollback, stale/changed scene rejection, UUID binding and bake guard
+PASS duplicated UUID picker selects case5 by node ID, persists exact source, restores selection, rejects switched scene and old runtime
+PASS ExtendScript JSON fallback and malformed-input rejection
+PASS immutable revisions, partial fallback, cancellation, reload, malformed metadata, PNG alpha and concurrent LRU
+PASS independent channel snapshots despite identical revision/generation IDs
+1920x1080 -> 1920x1080: old 21.2755 ms, new 1.62658 ms, 13.0799x
+960x540 -> 1920x1080: old 24.2804 ms, new 9.07603 ms, 2.67522x
+PASS alpha, aspect fit, cropped tiles and rounding <= 1/255

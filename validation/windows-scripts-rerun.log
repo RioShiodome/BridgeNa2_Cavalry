@@ -1,0 +1,5 @@
+PASS embedded C# compilation and Win64 structure sizes (no Windows API execution)
+PASS syntax: renderer/launch-windows.ps1
+PASS syntax: install/Install-Windows.ps1
+PASS syntax: install/Check-Compatibility-Windows.ps1
+PASS diagnostic checks: x64 PE, malformed PE, Unicode paths, checksums, changed files and path traversal

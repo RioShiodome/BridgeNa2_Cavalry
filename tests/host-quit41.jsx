@@ -1,0 +1,1 @@
+(function(){if($.global.CN41&&$.global.CN41.current)$.global.CN41.current.win.close();for(var i=1;i<=app.project.numItems;i++){var n=app.project.item(i).name;if(n!=='Native Test'&&n!=='Solids'&&n.indexOf('Cavalry')!==0)throw Error('Unexpected item; leaving isolated host open: '+n);}app.project.close(CloseOptions.DO_NOT_SAVE_CHANGES);app.quit();})();

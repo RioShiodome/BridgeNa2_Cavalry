@@ -1,0 +1,1 @@
+(function(){var o={};try{var s=$.global.CN41.current;o.session=s.session;o.note=s.win.children[4].text;s.win.children[6].children[0].onClick();o.running=s.running;}catch(e){o.error=String(e);}var f=File('/Users/moonshot/cavalry-ae-native/build/ui-render-click.json');f.open('w');f.write(JSON.stringify(o));f.close();})();
